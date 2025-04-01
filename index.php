@@ -5,7 +5,7 @@
 <section class="hero-section position-relative overflow-hidden">
     <div id="perfumeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-inner">
-            <!-- First Carousel Item -->
+            <!-- First Carousel Itemsssss -->
             <div class="carousel-item active">
                 <div class="hero-image" style="background-image: url('https://c1.wallpaperflare.com/preview/644/332/929/cosmetics-make-up-eye-shadow-brush.jpg')"></div>
                 <div class="hero-content text-center text-white position-relative">
