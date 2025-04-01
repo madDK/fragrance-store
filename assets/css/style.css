@@ -1,0 +1,49 @@
+:root {
+    --bs-body-bg: #f8f9fa;
+    --card-bg: #ffffff;
+}
+
+body {
+    background-color: var(--bs-body-bg);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.bi-whatsapp::before {
+    content: "\f618"; /* Bootstrap Icons WhatsApp code */
+}
+
+.btn-success {
+    background-color: #25D366 !important;
+    border-color: #25D366 !important;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.card-title {
+    color: #2d3436;
+    font-size: 1.1rem;
+}
+
+.text-primary {
+    color: #0066cc !important;
+}
+
+.badge.bg-primary {
+    background-color: #0066cc !important;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+    width: 100%;
+}
