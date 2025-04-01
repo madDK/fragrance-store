@@ -5,7 +5,7 @@
         <?php
         include 'db.php';
 
-        // Pagination Logic
+        // Pagination Logiccs
         $limit = 8;  // Max 8 products per page
         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
         $start = ($page - 1) * $limit;
